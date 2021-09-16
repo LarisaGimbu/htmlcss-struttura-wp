@@ -10,26 +10,33 @@
   clear: both;
 }
 
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
 .header-top{
   min-height: 100px;
   background-color: rgb(229, 121, 230);
+  margin: 20px 0;
   
 }
 
 .giambotron{
   min-height: 200px;
   background-color: rgb(225, 214, 122);
+  margin-bottom: 20px;
 }
 
 .main-top{
   min-height: 50px;
   background-color: rgb(171, 207, 231);
-  margin-bottom: 5px;
 }
 
 .main-bottom{
   background-color: rgb(0, 135, 255);
   min-height: 50px;
+  padding: 5px 0;
 }
 
 aside, .content{
@@ -50,4 +57,10 @@ aside{
   width: 60%;
   min-height: 200px;
   background-color: rgb(171, 207, 231);
+}
+
+footer{
+  min-height: 40px;
+  background-color: rgb(136, 1, 254);
+  margin-top: 3px;
 }
