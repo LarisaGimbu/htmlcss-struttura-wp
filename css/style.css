@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header-top{
+  min-height: 100px;
+  background-color: rgb(229, 121, 230);
+  
+}
+
+.giambotron{
+  min-height: 200px;
+  background-color: rgb(225, 214, 122);
+}
+
+main{
+  background-color: rgb(0, 135, 255);
+}
